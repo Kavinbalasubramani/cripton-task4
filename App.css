@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.revenue-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  text-align: center;
+  width: 250px;
+}
+
+.revenue-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.revenue-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+
+.revenue-percentage {
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+  display: flex;
+  gap: 5px;
+}
+
+.revenue-amount {
+  font-size: 25px;
+  color: #333;
+  font-weight: bold;
+}
+.revenue-content
+{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.demo
+{
+  height: 36px;
+  width: 36px;
+  border: 1px solid;
+  font-size: 25px;
+  border-radius: 50%;
+  background-color: orange;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;    
+  align-items: center;
+}
+.demo1
+{
+  font-size: 30px;
+  font-weight: bold;
+}
+.revenue
+{
+  font-size: 18px;
+  color: lightgreen;
+  font-weight: bold;
+  display: flex;
+  gap: 5px;
+}
+.demo0
+{
+  height: 36px;
+  width: 36px;
+  border: 1px solid;
+  font-size: 25px;
+  border-radius: 50%;
+  background-color: lightgreen;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;    
+  align-items: center;
+}
+.revenue-content1
+{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.demo2
+{
+  height: 36px;
+  width: 36px;
+  border: 1px solid;
+  font-size: 25px;
+  border-radius: 50%;
+  background-color: red;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;    
+  align-items: center;
+}
+.demo3
+{
+  height: 36px;
+  width: 36px;
+  border: 1px solid;
+  font-size: 25px;
+  border-radius: 50%;
+  background-color: peru;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;    
+  align-items: center;
+}
